@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / Política de Privacidad - Master Memory</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --bg: #ffffff;
+      --card-bg: #f8fafc;
+      --border: #e2e8f0;
+      --badge-bg: #ecfdf5;
+      --badge-text: #047857;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 30px 20px 60px;
+      color: var(--text);
+      background-color: var(--bg);
+    }
+
+    /* Selector de idioma */
+    .lang-switcher-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lang-btn {
+      background: none;
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .lang-btn:hover:not(.active) {
+      background-color: #f1f5f9;
+    }
+
+    /* Contenido */
+    h1 {
+      font-size: 1.9rem;
+      margin-top: 0;
+      color: #0f172a;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 32px;
+      color: #0f172a;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+
+    p, li {
+      color: #334155;
+      font-size: 0.98rem;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      background-color: var(--badge-bg);
+      color: var(--badge-text);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    .date {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+    }
+
+    .contact-box {
+      background-color: var(--card-bg);
+      border-left: 4px solid var(--primary);
+      padding: 14px 18px;
+      margin-top: 16px;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Selector de idioma -->
+  <div class="lang-switcher-container">
+    <span style="font-size: 0.85rem; color: var(--text-muted);">Idioma / Language:</span>
+    <button class="lang-btn active" id="btn-es" onclick="switchLanguage('es')">Español</button>
+    <button class="lang-btn" id="btn-en" onclick="switchLanguage('en')">English</button>
+  </div>
+
+  <!-- SECCIÓN EN ESPAÑOL -->
+  <main id="content-es">
+    <h1>Política de Privacidad</h1>
+    <div class="badge">Privacidad por diseño: Funcionamiento 100% Local</div>
+    <p class="date"><strong>Última actualización:</strong> Octubre de 2026</p>
+
+    <p>Esta Política de Privacidad describe el tratamiento de la información en la aplicación móvil <strong>Master Memory</strong> (en adelante, la "Aplicación"), desarrollada por <strong>Back to foundations</strong>.</p>
+    
+    <p>Nos comprometemos firmemente a proteger su privacidad. Esta Aplicación ha sido diseñada bajo el principio de <em>minimización de datos</em> y opera de manera completamente local y fuera de línea en su dispositivo.</p>
+
+    <h2>1. Información que NO recopilamos</h2>
+    <p>La Aplicación no recopila, transmite ni almacena ningún tipo de dato personal identificable en servidores externos ni servicios en la nube:</p>
+    <ul>
+      <li><strong>Sin cuentas ni registro:</strong> No requiere registro, correo electrónico ni inicio de sesión a través de terceros.</li>
+      <li><strong>Sin datos identificativos del dispositivo:</strong> No accedemos a identificadores de publicidad (Advertising ID / GAID), número de serie, dirección IP ni ubicación geográfica.</li>
+      <li><strong>Sin acceso a datos personales ni multimedia:</strong> No se accede a la lista de contactos, cámara, micrófono ni al almacenamiento compartido de archivos del dispositivo.</li>
+    </ul>
+
+    <h2>2. Datos almacenados en el dispositivo (Almacenamiento Local)</h2>
+    <p>Para permitir el funcionamiento de las mecánicas de juego y el seguimiento de su progreso personal, la Aplicación guarda información exclusivamente dentro de la memoria interna protegida del dispositivo (mediante base de datos local / almacenamiento de clave-valor):</p>
+    <ul>
+      <li><strong>Progreso y récords:</strong> Niveles superados en cada minijuego ("Repite el número" y "Repite el patrón"), aciertos, fallos y mejores marcas personales.</li>
+      <li><strong>Sesiones de entrenamiento:</strong> Registro estadístico de partidas completadas (duración, número de dígitos o casillas alcanzadas y configuración de juego).</li>
+      <li><strong>Preferencias del usuario:</strong> Configuraciones personalizadas de las rondas (dígitos, tiempos de visualización y límites de rondas).</li>
+    </ul>
+    <p><strong>Importante:</strong> Esta información permanece en todo momento en su propio dispositivo y nunca sale de él ni se transfiere por red.</p>
+
+    <h2>3. Servicios y librerías de terceros</h2>
+    <p>La Aplicación no incluye kits de desarrollo (SDKs) de publicidad, analíticas de comportamiento, trackers entre aplicaciones ni servicios de seguimiento de terceros.</p>
+
+    <h2>4. Permisos del dispositivo</h2>
+    <p>La Aplicación no solicita ni requiere permisos sensibles del sistema operativo Android. Las notas musicales y efectos visuales funcionan mediante archivos empaquetados dentro de la propia aplicación.</p>
+
+    <h2>5. Eliminación y control de datos</h2>
+    <p>Dado que los datos residen únicamente en su dispositivo, usted mantiene el control total:</p>
+    <ul>
+      <li>Puede restablecer o eliminar todas sus puntuaciones y progresos en cualquier momento borrando el almacenamiento de la Aplicación desde los <strong>Ajustes de su dispositivo &gt; Aplicaciones &gt; Master Memory &gt; Almacenamiento &gt; Borrar datos</strong>.</li>
+      <li>La desinstalación de la Aplicación eliminará de manera automática, definitiva e inmediata todos los registros y partidas guardadas.</li>
+    </ul>
+
+    <h2>6. Privacidad de los menores</h2>
+    <p>La Aplicación es apta para todos los públicos y cumple con la directiva COPPA, el RGPD y la Política de Familias de Google Play. La Aplicación no solicita, no recopila ni comparte información de menores ni de ningún usuario.</p>
+
+    <h2>7. Cumplimiento con las Políticas de Google Play</h2>
+    <p>Esta política se encuentra totalmente alineada con las Políticas del Programa para Desarrolladores de Google Play y la sección de <em>Seguridad de los Datos</em> (Data Safety), reflejando que la aplicación no comparte ni recopila datos fuera del dispositivo.</p>
+
+    <h2>8. Contacto</h2>
+    <p>Si tiene alguna pregunta acerca de esta Política de Privacidad, puede contactarnos a través de:</p>
+    <div class="contact-box">
+      <strong>Correo de soporte:</strong> <a href="mailto:backtofoundations.ai@gmail.com">backtofoundations.ai@gmail.com</a><br>
+      <strong>Desarrollador:</strong> Back to foundations
+    </div>
+  </main>
+
+  <!-- SECCIÓN EN INGLÉS -->
+  <main id="content-en" class="hidden">
+    <h1>Privacy Policy</h1>
+    <div class="badge">Privacy by Design: 100% Local Storage</div>
+    <p class="date"><strong>Last updated:</strong> October 2026</p>
+
+    <p>This Privacy Policy describes how information is handled in the mobile application <strong>Master Memory</strong> (referred to as the "Application"), developed by <strong>Back to foundations</strong>.</p>
+    
+    <p>We are fully committed to protecting your privacy. This Application is built following the principle of <em>data minimization</em> and operates entirely offline and locally on your device.</p>
+
+    <h2>1. Information We DO NOT Collect</h2>
+    <p>The Application does not collect, transmit, or store any personally identifiable information on external servers or cloud services:</p>
+    <ul>
+      <li><strong>No accounts or registration:</strong> No registration, account creation, email address, or third-party login is required.</li>
+      <li><strong>No device identifiers:</strong> We do not collect Advertising IDs (GAID), serial numbers, IP addresses, or location data.</li>
+      <li><strong>No personal files or media:</strong> The Application never accesses your contacts, camera, microphone, or external storage files.</li>
+    </ul>
+
+    <h2>2. Data Stored on the Device (Local Storage)</h2>
+    <p>To enable gameplay mechanics and personal progress tracking, the Application stores non-sensitive game statistics solely inside the device's sandboxed local storage (via local database / key-value store):</p>
+    <ul>
+      <li><strong>Game progress and high scores:</strong> Levels reached in each minigame ("Number Memory" and "Pattern Memory"), correct answers, mistakes, and personal records.</li>
+      <li><strong>Session records:</strong> Statistical metrics of completed games (session duration, sequence lengths achieved, and game mode configuration).</li>
+      <li><strong>Custom settings:</strong> User-selected parameters for custom practice rounds (number of digits, presentation duration, and round count).</li>
+    </ul>
+    <p><strong>Note:</strong> All stored data remains strictly on your device and is never transmitted over the internet.</p>
+
+    <h2>3. Third-Party Services and SDKs</h2>
+    <p>The Application does not include third-party advertising SDKs, behavioral analytics tools, cross-app tracking libraries, or third-party payment gateways.</p>
+
+    <h2>4. Device Permissions</h2>
+    <p>The Application does not request or require sensitive Android permissions. Sounds, visual stimuli, and feedback are handled entirely via locally bundled app assets.</p>
+
+    <h2>5. Data Retention and Deletion</h2>
+    <p>Because all data is stored exclusively on your device, you have complete control over it:</p>
+    <ul>
+      <li>You can clear all scores and game progress at any time by going to your device's <strong>Settings &gt; Apps &gt; Master Memory &gt; Storage &gt; Clear Data</strong>.</li>
+      <li>Uninstalling the Application will permanently, immediately, and irreversibly delete all local gameplay data.</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The Application is safe for users of all ages and complies with international children's privacy regulations (including COPPA and GDPR) as well as the Google Play Families Policy. The Application does not collect, store, or share any personal information from children or any other users.</p>
+
+    <h2>7. Google Play Policies Compliance</h2>
+    <p>This policy is aligned with Google Play Developer Program Policies, specifically the User Data policy and the <em>Data Safety</em> section, confirming that no user data is collected or shared externally.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions or inquiries regarding this Privacy Policy, please contact:</p>
+    <div class="contact-box">
+      <strong>Support Email:</strong> <a href="mailto:backtofoundations.ai@gmail.com">backtofoundations.ai@gmail.com</a><br>
+      <strong>Developer:</strong> Back to foundations
+    </div>
+  </main>
+
+  <script>
+    function switchLanguage(lang) {
+      const contentEs = document.getElementById('content-es');
+      const contentEn = document.getElementById('content-en');
+      const btnEs = document.getElementById('btn-es');
+      const btnEn = document.getElementById('btn-en');
+
+      if (lang === 'en') {
+        contentEs.classList.add('hidden');
+        contentEn.classList.remove('hidden');
+        btnEn.classList.add('active');
+        btnEs.classList.remove('active');
+        document.documentElement.lang = 'en';
+      } else {
+        contentEn.classList.add('hidden');
+        contentEs.classList.remove('hidden');
+        btnEs.classList.add('active');
+        btnEn.classList.remove('active');
+        document.documentElement.lang = 'es';
+      }
+    }
+
+    // Detección automática del idioma del navegador
+    (function initLanguage() {
+      const userLang = navigator.language || navigator.userLanguage;
+      if (userLang && userLang.toLowerCase().startsWith('en')) {
+        switchLanguage('en');
+      }
+    })();
+  </script>
+
+</body>
+</html>
